@@ -1,0 +1,36 @@
+name: home_page
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  freezed_annotation:
+  riverpod_generator:
+  flutter_riverpod:
+  go_router: ^13.1.0
+  flutter_svg:
+  flutter_markdown: ^0.6.19
+  riverpod_annotation: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  freezed:
+  flutter_gen_runner:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/md/
